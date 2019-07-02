@@ -1,0 +1,158 @@
+.aboutMeBox {
+  background: $white;
+  width: 65%;
+  max-width: 950px;
+  padding: 4rem;
+  @media screen and (max-width: $breakpointPCmd) {
+    width: 80%;
+  }
+  @media screen and (max-width: $breakpointTAB) {
+    width: 90%;
+    margin: auto;
+    right: auto;
+  }
+  @media screen and (max-width: $breakpointSP) {
+    width: 100%;
+    padding: 2rem;
+  }
+}
+
+.borderBox-dl {
+  border: 1px solid rgba($navy, .4);
+  border-radius: 8px;
+  padding: 2.4rem 1rem 2rem;
+  position: relative;
+  dt {
+    background: $white;
+    position: absolute;
+    top: -2rem;
+    padding: .5rem 2rem;
+    font-weight: bold;
+    @media screen and (max-width: $breakpointSP) {
+      padding: .5rem 1rem;
+    }
+  }
+}
+
+.indexBox ul {
+  padding-left: 3.2rem;
+  padding-right: 1rem;
+}
+
+.textBox {
+  padding: 2rem;
+  p {
+    margin-bottom: 1em;
+    margin: auto auto 1em;
+    line-height: 1.75;
+  }
+}
+
+.indexBox .linkUrl {
+  background: $navy;
+  color: $white;
+  padding: .5em 2em;
+  border-radius: 50px;
+  font-size: 1.2rem;
+  @media screen and (max-width: $breakpointSP) {
+    padding: 1em 1em;
+    display: block;
+    width: 100%;
+  }
+  &:visited {
+    color: $white;
+  }
+}
+
+.linkUrl {
+  display: block;
+  width: 100%;
+  max-width: 350px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  @media screen and (max-width: $breakpointSP) {
+    max-width: 300px;
+  }
+  &:before {
+    @include fontAwesome;
+    content: "\f35d";
+    margin-right: .5em;
+  }
+}
+
+.linkMore {
+  display: block;
+  text-align: right;
+  font-size: 80%;
+  padding: 1em 0 0;
+  &:after {
+    @include fontAwesome;
+    content: "\f101";
+    margin-left: .5em;
+  }
+}
+
+.nowWorkBox {
+  dd {
+    padding: .5rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    @media screen and (max-width: $breakpointSP) {
+      flex-direction: column;
+    }
+  }
+  .borderBox-dl {
+    margin-bottom: 2em;
+  }
+}
+
+.borderBox-dl_left {
+  width: 60%;
+  padding-right: 2em;
+  @media screen and (max-width: $breakpointSP) {
+    margin-bottom: 2em;
+    padding-right: 0;
+  }
+}
+.borderBox-dl_right {
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
+  @media screen and (max-width: $breakpointSP) {
+    padding-left: 0;
+    text-align: center;
+    justify-content: center;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    li:not(:last-child) {
+      margin-bottom: .5em;
+      @media screen and (max-width: $breakpointSP) {
+        margin-bottom: 1.5em;
+      }
+    }
+  }
+  a img {
+    width: 50%;
+    height: auto;
+    // @media screen and (max-width: $breakpointSP) {
+    //   width: 100%;
+    // }
+  }
+}
+
+.borderBox-dl_left,
+.borderBox-dl_right {
+  @media screen and (max-width: $breakpointTAB) {
+    width: 100%;
+  }
+}
+
+.QRimg {
+  @media screen and (max-width: $breakpointSP) {
+    display: none;
+  }
+}

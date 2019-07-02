@@ -1,0 +1,161 @@
+$yellow: #FFE200;
+$navy: #00426C;
+$white: #FFF8F9;
+$black: #333;
+$red: #f7797d;
+
+$breakpointSP: 425px;
+$breakpointTAB: 834px;
+$breakpointPCmd: 1024px;
+
+@mixin boxShadow($color) {
+  box-shadow: 0 0 4px $color;
+}
+
+@mixin textShadow($color) {
+  text-shadow: 0 1px 2px $color;
+}
+
+@mixin fontAwesome {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  line-height: 1.5;
+  font-size: 16px;
+  font-size: 1.6rem;
+  color: $navy;
+  // background: $yellow;
+  background: #C6FFDD;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #f7797d 0%, #FBD786 50%, #C6FFDD 100%);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #f7797d 0%, #FBD786 50%, #C6FFDD 100%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: -apple-system,'BlinkMacSystemFont','Segoe UI','Avenir','Helvetica Neue','Helvetica',
+  'Arial',"游ゴシック", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: $red;
+  text-decoration: none;
+  transition: .3s;
+  &:visited,
+  &:active {
+    color: $red;
+  }
+  &:hover {
+    opacity: .6;
+  }
+}
+
+i {
+  margin-right: .5em;
+}
+
+h3 {
+  font-size: 2.4rem;
+}
+
+h4 {
+  font-size: 2rem;
+  span {
+    @media screen and (max-width: $breakpointSP) {
+      display: block;
+    }
+  }
+}
+
+.title {
+  font-size: 4rem;
+  font-weight: bold;
+  @media screen and (max-width: $breakpointSP) {
+    font-size: 3rem;
+  }
+}
+
+.title-mini {
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+
+.marginBottom {
+  margin-bottom: 4rem;
+}
+
+.marginBottomHalf {
+  margin-bottom: 2rem;
+}
+
+.borderBottom {
+  border-bottom: 8px solid $navy;
+}
+
+.borderBottom-thin {
+  border-bottom: 3px solid $navy;
+}
+
+li {
+  line-height: 1.75;
+}
+
+.littleText {
+  font-size: 80%;
+  font-weight: normal;
+  margin-left: 1em;
+}
+
+.marginRight {
+  margin-right: .5em;
+}
+
+.paddingLeft {
+  padding-left: 1.5em;
+}
+
+hr {
+  border-width: 1px 0 0 0;
+	border-style: solid;
+  border-color: $navy;
+  opacity: .6;
+}
+
+.indexBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba($white,.9);
+  @media screen and (min-width: $breakpointTAB + 1px) {
+    padding-right: 2rem;
+  }
+}
+
+.page-enter-active, .page-leave-active {
+  transition: opacity 0.1s
+}
+.page-enter, .page-leave-active {
+  opacity: 0
+}
+
+@import '_top.scss';
+@import '_gallery.scss';
+@import '_contact.scss';
+
+.footer-copyBox {
+  display: block;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 1em;
+  color: $white;
+}

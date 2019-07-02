@@ -1,0 +1,233 @@
+/*---------------------------------
+
+  メインビジュアル
+
+---------------------------------*/
+
+.galleryBox {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  width: 96%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 2em;
+  @media screen and (max-width: $breakpointPCmd) {
+    width: 96%;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.galleryTitleBox {
+  width: 30%;
+  padding-right: 1.8em;
+  @media screen and (max-width: $breakpointPCmd) {
+    width: 100%;
+  }
+}
+
+// 画面エリア
+
+.galleryImageBox {
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  @media screen and (max-width: $breakpointPCmd) {
+    width: 100%;
+  }
+  @media screen and (max-width: $breakpointTAB) {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.gall-pc {
+  width: 480px;
+  height: 408.3px;
+  position: relative;
+  @media screen and (max-width: $breakpointTAB) {
+    margin: auto auto 4em;
+  }
+  @media screen and (max-width: $breakpointSP) {
+    margin: auto auto 2em;
+    width: 320px;
+    height: 272.2px;
+  }
+  .screenPC {
+    width: 425px;
+    height: auto;
+    position: absolute;
+    top: 27px;
+    left: 28px;
+    z-index: -1;
+    @media screen and (max-width: $breakpointSP) {
+      top: 17px;
+      left: 20px;
+      width: 280px;
+    }
+  }
+  &:before {
+    content: "";
+    display: block;
+    background: url(~assets/img/gall-pc.svg) no-repeat;
+    width: 480px;
+    height: 408.3px;
+    @media screen and (max-width: $breakpointSP) {
+      width: 320px;
+      height: 272.2px;
+    }
+  }
+}
+
+.gall-spBox {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  width: 46%;
+  @media screen and (max-width: $breakpointTAB) {
+    width: 64%;
+  }
+  @media screen and (max-width: $breakpointSP) {
+    width: 100%;
+  }
+}
+
+.gall-sp {
+  width: 190px;
+  height: 381.238px;
+  position: relative;
+  @media screen and (max-width: $breakpointSP) {
+    width: 170px;
+    height: 341.11px;
+  }
+  .screenSP { // 157 281
+    position: absolute;
+    top: 48px;
+    left: 16px;
+    z-index: -1;
+    width: 157px;
+    @media screen and (max-width: $breakpointSP) {
+      top: 43px;
+      left: 14px;
+      width: 142px;
+    }
+  }
+  &:before {
+    content: "";
+    display: block;
+    background: url(~assets/img/gall-sp.svg) no-repeat;
+    width: 190px;
+    height: 381.238px;
+    @media screen and (max-width: $breakpointSP) {
+      width: 170px;
+      height: 341.11px;
+    }
+  }
+}
+
+/*---------------------------------
+
+  説明エリア
+
+---------------------------------*/
+
+.galleryExplainBox {
+  display: flex;
+  justify-content: center;
+  background: $white;
+  padding: 2em 0;
+  @media screen and (max-width: $breakpointTAB) {
+    padding-left: 0;
+  }
+  @media screen and (max-width: $breakpointSP) {
+    flex-direction: column;
+    padding-left: 1.8em;
+    padding-right: 1em;
+  }
+}
+
+.galleryExplainBox_leftBox {
+  width: 32%;
+  padding-right: 4em;
+  @media screen and (max-width: $breakpointPCmd) {
+    width: 46%;
+  }
+  @media screen and (max-width: $breakpointSP) {
+    width: 96%;
+    padding-right: 0;
+  }
+}
+
+.galleryExplainBox_rightBox {
+  width: 46%;
+  padding-right: 2%;
+  @media screen and (max-width: $breakpointSP) {
+    width: 96%;
+  }
+}
+
+.galleryExplainBox-description {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  margin-bottom: 2em;
+  dt {
+    font-size: 80%;
+    width: 10%;
+  }
+  dd {
+    // width: 100%;
+    padding-left: 1em;
+    // padding-right: 4em;
+    ul {
+      padding-left: 1.4em;
+    }
+    p {
+      margin-bottom: 1em;
+    }
+  }
+}
+
+.galleryExplainBox-description_point {
+  // background: $navy;
+  // padding: .2em .5em;
+  // text-align: right;
+  letter-spacing: .1em;
+  // border-radius: 0 10px 10px 0;
+  // color: $white;
+  // margin-right: 1em;
+  margin-bottom: .5em;
+  font-weight: bold;
+}
+
+.backToTop {
+  text-align: center;
+  line-height: 56px;
+  a {
+    color: $white;
+    border: 2px solid $white;
+    border-radius: 50px;
+    line-height: 56px;
+    width: 300px;
+    margin: auto;
+    display: block;
+    &:visited,
+    &:active {
+      color: $white;
+    }
+  }
+}
+
+.googleBanner {
+  a {
+    margin-left: -.5em;
+  }
+  img {
+    width: 50%;
+    height: auto;
+  }
+}
