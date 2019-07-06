@@ -17,19 +17,25 @@
   }
 }
 
-.borderBox-dl {
-  border: 1px solid rgba($navy, .4);
-  border-radius: 8px;
-  padding: 2.4rem 1rem 2rem;
-  position: relative;
-  dt {
-    background: $white;
-    position: absolute;
-    top: -2rem;
-    padding: .5rem 2rem;
-    font-weight: bold;
-    @media screen and (max-width: $breakpointSP) {
-      padding: .5rem 1rem;
+.aboutMeBox-explainBox {
+  p {
+    &:not(:last-child) {
+      margin-bottom: 1em;
+    }
+  }
+}
+
+.indexBox {
+  .borderBox-dl {
+    dt {
+      background: $white;
+      position: absolute;
+      top: -2rem;
+      padding: .5rem 2rem;
+      font-weight: bold;
+      @media screen and (max-width: $breakpointSP) {
+        padding: .5rem 1rem;
+      }
     }
   }
 }

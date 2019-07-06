@@ -47,17 +47,17 @@
               dt.galleryExplainBox-description_point 所感
               dd
                 p(style="white-space: pre-wrap;" v-html="gallery.shokan")
-        .backToTop.marginBottom
-          nuxt-link(to="/")
-            i.fas.fa-angle-double-left
-            |トップへ戻る 
+        backtotop 
 </template>
 
 <script>
-  // import gallerys saved JSON data
   import gallerys from '~/assets/json/data.json'
+  import backtotop from "@/components/backToTop.vue"
 
   export default {
+    components:{
+      backtotop
+    },
     validate ({ params }) {
       return /^\d+$/.test(params.id)
     },

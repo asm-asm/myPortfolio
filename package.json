@@ -1,8 +1,8 @@
 {
   "name": "Portfolio",
   "version": "1.0.0",
-  "description": "My good Nuxt.js project",
-  "author": "asami muto",
+  "description": "Portfolio site",
+  "author": "Asami Muto",
   "private": true,
   "scripts": {
     "dev": "nuxt",

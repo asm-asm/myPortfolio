@@ -1,6 +1,6 @@
 <!-- ./components/Gallery.vue -->
 <template lang="pug">
-  article.content
+  article.content.marginBottom
     div(v-for="gallery in gallerys")
       .galleryBox.marginBottom
         .galleryTitleBox

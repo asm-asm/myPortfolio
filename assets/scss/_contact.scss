@@ -1,6 +1,37 @@
 .contactBox {
+  text-align: center;
   background: $white;
-  width: 96%;
-  // height: 80vh;
-  margin: auto;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2em;
+  @media screen and (max-width: $breakpointSP) {
+    text-align: left;
+  }
+  .borderBox-dl {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    @media screen and (max-width: $breakpointSP) {
+      width: 96%;
+    }
+    dt {
+      margin-bottom: .5em;
+    }
+    dd {
+      margin-bottom: 2em;
+    }
+  }
+}
+
+.contactBox-explain {
+  text-align: center;
+  @media screen and (max-width: $breakpointSP) {
+    text-align: left;
+  }
+  p {
+    &:not(:last-child) {
+      margin-bottom: 1em;
+    }
+  }
 }

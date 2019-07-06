@@ -5,13 +5,18 @@
         i.far.fa-grin-wink
         |ABOUT
         span.littleText 私について
-      p.marginBottom 制作したサイトやアプリを現状ままで放置をせずに、ユーザーのために継続して改善・提案していくことが得意です。
+      .aboutMeBox-explainBox.marginBottom
+        p 名前 Asami Muto
+        p 趣味でWebサイトを製作し始めてから20年がたちました。実務製作は約8年のWebデザイナー兼マークアップエンジニアです。
+        p Webデザイナーのお仕事は「人の脳内にあるイメージ図を最速で具現化／モックアップ化し、チームや社内で同じ方向を見るためのコミュニケーション」だと思っています。
+        p 制作したサイトやアプリを現状ままで放置をせずに、ユーザーのために継続して改善・提案していくことが得意です。
+        p 趣味は英語や韓国語の習得で、最近はVue.jsが好きです。
       dl.borderBox-dl.marginBottom
         dt SKILL
           span.littleText スキル
         dd
           ul
-            li レスポンシブデザイン、Androidアプリデザイン、UXデザイン
+            li レスポンシブデザイン、Androidアプリデザイン、UXデザイン、material design
             li HTML5、CSS3、jquery/Javascriptの実装、Nuxt.js
             li sass(scss)、Gulp4、pug、WordPressテンプレート作成
             li GitHub、GitLab
@@ -70,16 +75,6 @@
         p 個人ではHTML5やCSS3、SEO対策、レスポンシブデザインの勉強のためWordpressテンプレートを1から自作し、女性向け化粧品紹介サイトなどを個人的に運営しています。
 </template>
 
-<!-- <script>
-import Logo from '~/components/Logo.vue'
-
-export default {
-  components: {
-    Logo
-  }
-}
-</script> -->
-
 <script>
   import gallerys from '~/assets/json/data.json'
 
@@ -92,34 +87,4 @@ export default {
 </script>
 
 <style lang="scss">
-/* .container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.linkUrls {
-  padding-top: 15px;
-} */
 </style>

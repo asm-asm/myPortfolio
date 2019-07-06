@@ -1,14 +1,17 @@
 <template lang="pug">
   section.container
     gallerys
+    backtotop
 </template>
 
 <script>
 import Gallerys from '~/components/Gallery.vue'
+import backtotop from "@/components/backToTop.vue"
 
 export default {
   components: {
-    Gallerys
+    Gallerys,
+    backtotop
   },
   data () {
     return {
