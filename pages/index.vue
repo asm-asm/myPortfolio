@@ -7,10 +7,10 @@
         span.littleText 私について
       .aboutMeBox-explainBox.marginBottom
         p 名前 Asami Muto
-        p 趣味でWebサイトを製作し始めてから20年がたちました。実務製作は約8年のWebデザイナー兼マークアップエンジニアです。
+        p 趣味でWebサイトを製作し始めてから20年がたちました。実務制作は約8年のWebデザイナー兼マークアップエンジニアです。
         p Webデザイナーのお仕事は「人の脳内にあるイメージ図を最速で具現化／モックアップ化し、チームや社内で同じ方向を見るためのコミュニケーション」だと思っています。
         p 制作したサイトやアプリを現状ままで放置をせずに、ユーザーのために継続して改善・提案していくことが得意です。
-        p 趣味は英語や韓国語の習得で、最近はVue.jsが好きです。
+        p 趣味は英語や韓国語の習得や、最近はVue.jsを触ることが好きです。
       dl.borderBox-dl.marginBottom
         dt SKILL
           span.littleText スキル
@@ -25,7 +25,7 @@
         dt 使用可能ソフト
         dd
           ul
-            li Adobe XD、Photoshop CC、Illstrator CC、Zeplin、Figma、
+            li Adobe XD、Photoshop CC、Illustrator CC、Zeplin、Figma、
             li VScode、その他MSオフィスソフト等
             li Slack、Chat Work、Torello
       h3.title-mini.borderBottom-thin.marginBottomHalf
@@ -58,7 +58,7 @@
         |過去の経歴
       span.littleText 実務8年/個人制作を含むとホームページ制作歴20年
       ul.marginBottom
-        li バンタンデザイン研究所グラフィックデザイン先行本科卒
+        li バンタンデザイン研究所グラフィックデザイン専攻本科卒
         li 玩具向けデザイン会社(B to C)　WEBデザイン/コーダー
         li ゲーム会社(B to C)　WEBデザイン/コーダー
         li 物流会社(B to B)　WEBデザイン/コーダー/進行管理
