@@ -63,7 +63,7 @@
       span.littleText 実務9年/個人制作を含むとホームページ制作歴20年
       ul.marginBottom
         li バンタンデザイン研究所グラフィックデザイン専攻本科卒
-        li 玩具向けデザイン会社(B to C)　WEBデザイン/コーダー
+        li 玩具系デザイン会社(B to C)　WEBデザイン/コーダー
         li ゲーム会社(B to C)　WEBデザイン/コーダー
         li 物流会社(B to B)　WEBデザイン/コーダー/進行管理
         li ECサイト系制作会社(B to B to C)　WEBデザイン/コーダー/進行管理
