@@ -21,7 +21,7 @@
             i.fab.fa-linkedin
             |linkedIn
           dd
-            a(href="https://www.linkedin.com/in/asami-muto-483500176/" target="_blank" rel="noopener") https://www.linkedin.com/in/asami-muto-483500176/
+            a(href="https://www.linkedin.com/in/ann-muto-483500176/" target="_blank" rel="noopener") https://www.linkedin.com/in/ann-muto-483500176/
           dt
             i.far.fa-envelope
             |mail
