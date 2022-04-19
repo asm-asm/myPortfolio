@@ -14,14 +14,14 @@
           //-   br
           //-   |（※このポートフォリオのサイトや下記サイトで詳細はご覧いただけます）
         dl.borderBox-dl.marginBottom
-          dt Wantedly
+          dt Twitter
           dd
-            a(href="https://www.wantedly.com/users/38606072" target="_blank" rel="noopener") https://www.wantedly.com/users/38606072
+            a(href="https://twitter.com/ASm_Design_" target="_blank" rel="noopener") https://twitter.com/ASm_Design_
           dt
             i.fab.fa-linkedin
             |linkedIn
           dd
-            a(href="https://www.linkedin.com/in/ann-muto-483500176/" target="_blank" rel="noopener") https://www.linkedin.com/in/ann-muto-483500176/
+            a(href="https://www.linkedin.com/in/ann-m-483500176/" target="_blank" rel="noopener") https://www.linkedin.com/in/ann-m-483500176/
           dt
             i.far.fa-envelope
             |mail
