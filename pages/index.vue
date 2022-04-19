@@ -1,18 +1,18 @@
 <template lang="pug">
   section.container.indexBox
     .aboutMeBox
-      p.marginBottom 2022/04/19：サイトを修正しました。
+      p.marginBottom 2022/04/19：サイトテキストを修正しました。現在リニューアル作業中です。
       h2.title.borderBottom.marginBottomHalf
         i.far.fa-grin-wink
         |ABOUT
         span.littleText 私について
       .aboutMeBox-explainBox.marginBottom
-        p 名前 Asami Muto
-        p 趣味でWebサイトを製作し始めてから20年がたちました。実務制作は約9年のWebデザイナー兼マークアップエンジニアです。
+        p 名前 A M
+        p 趣味でWebサイトを製作し始めてから20年がたちました。実務制作は約10年以上のWebデザイナー兼マークアップエンジニアです。
         p Webデザイナーのお仕事は「人の脳内にあるイメージ図を最速で具現化／モックアップ化し、チームや社内で同じ方向を見るためのコミュニケーション」だと思っています。
         p 制作したサイトやアプリを現状ままで放置をせずに、ユーザーのために継続して改善・提案していくことが得意です。
         p 趣味は英語や韓国語の習得や、最近はVue.jsを触ることが好きで、このサイトはNuxt.jsでできています。
-        p Live2Dでのアニメーション作成やPremiere proでの動画編集も勉強中です。
+        p Live2Dでのアニメーション作成やNext.jsを勉強中です。
       dl.borderBox-dl.marginBottom
         dt SKILL
           span.littleText スキル
@@ -39,6 +39,7 @@
         i.fas.fa-address-card.marginRight
         |過去の仕事
       ul.marginBottom
+        li 勤怠管理システム会社公式HP運用更新など（〜2022現在）
         li インバウンド向けサイト（英語）のLP制作や既存HPのメンテナンス・更新等（〜2019/11）
         li アンケートの配信や会員向けサイト運営会社のサイトデザイン作成・マークアップ、アプリのUI/UXデザイン・ディレクションなど（〜2019/08）
       h4.marginBottom 直近の業務内容
