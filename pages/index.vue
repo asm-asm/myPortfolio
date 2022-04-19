@@ -1,7 +1,7 @@
 <template lang="pug">
   section.container.indexBox
     .aboutMeBox
-      p.marginBottom 2020/09/03：サイトを最新の情報に更新しました。
+      p.marginBottom 2022/04/19：サイトを修正しました。
       h2.title.borderBottom.marginBottomHalf
         i.far.fa-grin-wink
         |ABOUT
