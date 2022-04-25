@@ -2,7 +2,7 @@
   <div>
     <myheader />
     <nuxt />
-    <div class="footer-copyBox">Copyright (C) 2019 Asami Muto All RightsReserved.</div>
+    <div class="footer-copyBox">Copyright (C) 2019 All RightsReserved.</div>
   </div>
 </template>
 
