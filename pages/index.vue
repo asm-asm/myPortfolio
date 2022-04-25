@@ -7,12 +7,12 @@
         |ABOUT
         span.littleText 私について
       .aboutMeBox-explainBox.marginBottom
-        p 名前 A M
+        //- p 名前 A M
         p 趣味でWebサイトを製作し始めてから20年がたちました。実務制作は約10年以上のWebデザイナー兼マークアップエンジニアです。
         p Webデザイナーのお仕事は「人の脳内にあるイメージ図を最速で具現化／モックアップ化し、チームや社内で同じ方向を見るためのコミュニケーション」だと思っています。
         p 制作したサイトやアプリを現状ままで放置をせずに、ユーザーのために継続して改善・提案していくことが得意です。
-        p 趣味は英語や韓国語の習得や、最近はVue.jsを触ることが好きで、このサイトはNuxt.jsでできています。
-        p Live2Dでのアニメーション作成やNext.jsを勉強中です。
+        p 趣味は英語や韓国語の習得です。
+        p Live2Dでのアニメーション作成やNext.jsを勉強中です。※このサイトはNuxt.jsでできています。
       dl.borderBox-dl.marginBottom
         dt SKILL
           span.littleText スキル

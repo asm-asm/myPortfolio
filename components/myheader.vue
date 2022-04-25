@@ -10,9 +10,9 @@
         <nuxt-link to="/gallery">
           <li>GALLERY</li>
         </nuxt-link>
-        <nuxt-link to="/contact">
+        <!-- <nuxt-link to="/contact">
           <li>CONTACT</li>
-        </nuxt-link>
+        </nuxt-link> -->
       </ul>
     </div>
   </header>
