@@ -51,7 +51,7 @@
       h4.marginHalfBottom
         i.fas.fa-address-card.marginRight
         |直近の制作物（採用関連ページ）
-      ul.marginBottom
+      ul.workedLinks.marginBottom
         li
           a(href="https://recruiting-site.jp/s/toyotasystems/9699" target="_blank" rel="noopener") https://recruiting-site.jp/s/toyotasystems/9699
         li
