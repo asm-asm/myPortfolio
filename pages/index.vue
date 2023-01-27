@@ -66,15 +66,15 @@
           a(href="https://recruiting-site.jp/s/sony-semicon-solutions/9836" target="_blank" rel="noopener") https://recruiting-site.jp/s/sony-semicon-solutions/9836
       ol.workedBanners.marginBottom
         li
-          img(src="@/static/img/banner1.png")
+          img(src="@/static/img/banner1.png" alt="Instagram広告")
         li
-          img(src="@/static/img/banner2.jpeg")
+          img(src="@/static/img/banner2.jpeg" alt="LINEリッチメニュー")
           br
           |↑LINEリッチメニュー
         li
-          img(src="@/static/img/banner3.png")
+          img(src="@/static/img/banner3.png" alt="Googleなどのメディア広告")
         li
-          img(src="@/static/img/banner4.png")
+          img(src="@/static/img/banner4.png" alt="Googleなどのメディア広告2")
           br
           |↑Facebook/Instagramなど用のバナー
       h4.marginBottom
