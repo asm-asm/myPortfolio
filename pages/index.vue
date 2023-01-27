@@ -88,7 +88,7 @@
           dt {{ gallery.title }}
           dd
             .borderBox-dl_left {{ gallery.discription }}
-              nuxt-link(nuxt-link :to="`/gallery/${gallery.id}`").linkMore more
+              nuxt-link(nuxt-link :to="`/gallery/${gallery.id}`").linkMore 詳細を見る
             .borderBox-dl_right
               a(:href="gallery.href").linkUrl {{ gallery.href }}
       dl.borderBox-dl.marginBottom
