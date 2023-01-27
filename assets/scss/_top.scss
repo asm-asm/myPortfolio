@@ -17,6 +17,10 @@
   }
 }
 
+.aboutMeBox-explainBox span {
+  background:linear-gradient(transparent 60%, #ff6 60%);
+}
+
 .aboutMeBox-explainBox {
   p {
     &:not(:last-child) {
@@ -161,4 +165,22 @@
   @media screen and (max-width: $breakpointSP) {
     display: none;
   }
+}
+
+.workedBanners {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-left: 0;
+}
+
+.workedBanners img {
+  max-width: 350px;
+  height: auto;
+}
+
+.workedBanners li:nth-child(1) {
+  margin-bottom: 1em;
+  margin-left: 0;
 }
