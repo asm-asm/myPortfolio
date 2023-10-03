@@ -1,7 +1,7 @@
 <template lang="pug">
   section.container.indexBox
     .aboutMeBox
-      p.marginBottom 2023/01/27：サイト情報を最新にしました。
+      p.marginBottom 2023/10/03：サイト情報を最新にしました。
       h2.title.borderBottom.marginBottomHalf
         i.far.fa-grin-wink
         |ABOUT
@@ -43,7 +43,8 @@
         i.fas.fa-address-card.marginRight
         |過去の仕事
       ul.marginBottom
-        li 各大企業の採用領域での集客用バナーやLPなどの作成。(2022/5〜現在)
+        li BtoBでのDX支援の会社のサポートチームにてマニュアルの法対応業務(2023/4〜2023/9)※短期契約
+        li 各大企業の採用領域での集客用バナーやLPなどの作成。(2022/5〜2023/3)
         li ディレクターへの技術的・知識的サポート(2022/5〜現在)
         li 勤怠管理システム会社公式HP運用更新など（〜2022/5）
         li インバウンド向けサイト（英語）のLP制作や既存HPのメンテナンス・更新等（〜2019/11）
@@ -53,17 +54,11 @@
         |直近の制作物（採用関連ページ）
       ul.workedLinks.marginBottom
         li
-          a(href="https://recruiting-site.jp/s/toyotasystems/9699" target="_blank" rel="noopener") https://recruiting-site.jp/s/toyotasystems/9699
-        li
           a(href="https://recruiting-site.jp/s/subaru-move/" target="_blank" rel="noopener") https://recruiting-site.jp/s/subaru-move/
-        li
-          a(href="https://recruiting-site.jp/s/jx-foundry/9831" target="_blank" rel="noopener") https://recruiting-site.jp/s/jx-foundry/9831
         li
           a(href="https://recruiting-site.jp/s/sony-semicon-solutions/9832" target="_blank" rel="noopener") https://recruiting-site.jp/s/sony-semicon-solutions/9832
         li
           a(href="https://recruiting-site.jp/s/hazurechi-community/" target="_blank" rel="noopener") https://recruiting-site.jp/s/hazurechi-community/
-        li
-          a(href="https://recruiting-site.jp/s/sony-semicon-solutions/9836" target="_blank" rel="noopener") https://recruiting-site.jp/s/sony-semicon-solutions/9836
       ol.workedBanners.marginBottom
         li
           img(src="@/static/img/banner1.png" alt="Instagram広告")
