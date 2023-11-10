@@ -21,7 +21,7 @@
         dd
           ul
             li 0からのバナー制作・LP制作
-            li クライアントやサービスに合わせたイメージ作りや改善提案、新規企画
+            li クライアント様やサービスに合わせたイメージ作りや改善提案、新規企画
             li レスポンシブデザイン、Androidアプリデザイン、UXデザイン
             li HTML、CSS、jquery/Javascriptの実装、Nuxt.js
             li sass(scss)、WordPressテンプレート作成
