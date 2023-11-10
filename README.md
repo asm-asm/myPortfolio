@@ -4,6 +4,8 @@
 
 ## Build Setup
 
+portfolio > myPortfolio
+
 ``` bash
 # install dependencies
 $ yarn install
