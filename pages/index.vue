@@ -34,7 +34,7 @@
             li Adobe XD、Photoshop CC、Illustrator CC、Figma、Canva
             li VScode、その他MSオフィスソフト等
             li Slack、Chat Work、Torello、Teams
-            li Procreate（勉強中）Ω
+            li Procreate（勉強中）
       h3.title-mini.borderBottom-thin.marginBottomHalf
         i.fas.fa-tasks
         |CAREER
