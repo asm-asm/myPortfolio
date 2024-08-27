@@ -8,7 +8,7 @@
         span.littleText 私について
       .aboutMeBox-explainBox.marginBottom
         //- p 名前 A M
-        p 趣味でWebサイトを製作し始めてから20年がたちました。実務制作は15年以上のWebデザイナー兼マークアップエンジニアです。
+        p 趣味でWebサイトを製作し始めてから20年がたちました。実務制作は20年近くのWebデザイナー兼マークアップエンジニアです。
         p Webデザイナーのお仕事は「人の脳内にあるイメージ図を最速で具現化／モックアップ化し、チームや社内で同じ方向を見るためのコミュニケーション」だと思っています。
         p 制作したサイトやアプリを現状ままで放置をせずに、ユーザーのために
           span 継続して改善・提案していくことが得意
@@ -22,7 +22,7 @@
           ul
             li 0からのバナー制作・LP制作
             li クライアント様やサービスに合わせたイメージ作りや改善提案、新規企画
-            li レスポンシブデザイン、Androidアプリデザイン、UXデザイン
+            li レスポンシブデザイン、Androidアプリデザイン、UI/UXデザイン
             li HTML、CSS、jquery/Javascriptの実装、Nuxt.js
             li sass(scss)、WordPressテンプレート作成
             li GitHub、GitLab
@@ -34,7 +34,7 @@
             li Adobe XD、Photoshop CC、Illustrator CC、Figma、Canva
             li VScode、その他MSオフィスソフト等
             li Slack、Chat Work、Torello、Teams
-            li Premiere pro（習得中）、Live2D Cubism（習得中）
+            li Procreate（勉強中）Ω
       h3.title-mini.borderBottom-thin.marginBottomHalf
         i.fas.fa-tasks
         |CAREER
@@ -43,6 +43,7 @@
         i.fas.fa-address-card.marginRight
         |過去の仕事
       ul.marginBottom
+        li 大手Wi-Fi会社でのLPやバナー制作、事務作業など（〜2024/9）※短期契約
         li BtoBでのDX支援の会社のサポートチームにてマニュアルの法対応業務(2023/4〜2023/9)※短期契約
         li 各大企業の採用領域での集客用バナーやLPなどの作成。(2022/5〜2023/3)
         li ディレクターへの技術的・知識的サポート(2022/5〜現在)
@@ -51,14 +52,14 @@
         li アンケートの配信や会員向けサイト運営会社のサイトデザイン作成・マークアップ、アプリのUI/UXデザイン・ディレクションなど（〜2019/08）
       h4.marginHalfBottom
         i.fas.fa-address-card.marginRight
-        |直近の制作物（採用関連ページ）
+        |直近の制作物（キャンペーンページ）
       ul.workedLinks.marginBottom
         li
-          a(href="https://recruiting-site.jp/s/subaru-move/" target="_blank" rel="noopener") https://recruiting-site.jp/s/subaru-move/
+          a(href="https://au.wi2.ne.jp/lp/cp_202409/" target="_blank" rel="noopener") https://au.wi2.ne.jp/lp/cp_202409/
         li
-          a(href="https://recruiting-site.jp/s/sony-semicon-solutions/9832" target="_blank" rel="noopener") https://recruiting-site.jp/s/sony-semicon-solutions/9832
+          a(href="https://au.wi2.ne.jp/lp/cp_202408/" target="_blank" rel="noopener") https://recruiting-site.jp/s/sony-semicon-solutions/9832
         li
-          a(href="https://recruiting-site.jp/s/hazurechi-community/" target="_blank" rel="noopener") https://recruiting-site.jp/s/hazurechi-community/
+          a(href="https://au.wi2.ne.jp/aupay/uq/" target="_blank" rel="noopener") https://au.wi2.ne.jp/aupay/uq/
       ol.workedBanners.marginBottom
         li
           img(src="@/static/img/banner1.png" alt="Instagram広告")
