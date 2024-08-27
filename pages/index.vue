@@ -57,7 +57,7 @@
         li
           a(href="https://au.wi2.ne.jp/lp/cp_202409/" target="_blank" rel="noopener") https://au.wi2.ne.jp/lp/cp_202409/
         li
-          a(href="https://au.wi2.ne.jp/lp/cp_202408/" target="_blank" rel="noopener") https://recruiting-site.jp/s/sony-semicon-solutions/9832
+          a(href="https://au.wi2.ne.jp/lp/cp_202408/" target="_blank" rel="noopener") https://au.wi2.ne.jp/lp/cp_202408/
         li
           a(href="https://au.wi2.ne.jp/aupay/uq/" target="_blank" rel="noopener") https://au.wi2.ne.jp/aupay/uq/
       ol.workedBanners.marginBottom
