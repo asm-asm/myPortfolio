@@ -73,10 +73,6 @@
           img(src="@/static/img/banner4.png" alt="Googleなどのメディア広告2")
           br
           |↑Facebook/Instagramなど用のバナー
-        li
-          img(src="@/static/img/illust.png" alt="Adobeの生成AIを用いたイラスト制作")
-          br
-          |↑Adobeの生成AIを用いたイラスト制作
       h4.marginBottom
         i.fas.fa-address-card.marginRight
         |過去の業務内容
