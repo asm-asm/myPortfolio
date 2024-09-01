@@ -74,7 +74,7 @@
           br
           |↑Facebook/Instagramなど用のバナー
         li
-          img(src="@/static/img/illust.png" width="320" height="320" alt="Adobeの生成AIを使用したイラスト")
+          img(src="@/static/img/illust.png" alt="Adobeの生成AIを使用したイラスト")
       h4.marginBottom
         i.fas.fa-address-card.marginRight
         |過去の業務内容
