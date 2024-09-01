@@ -1,7 +1,7 @@
 <template lang="pug">
   section.container.indexBox
     .aboutMeBox
-      p.marginBottom 2024/08/27：サイト情報を最新にしました。
+      p.marginBottom 2024/09/01：サイト情報を最新にしました。
       h2.title.borderBottom.marginBottomHalf
         i.far.fa-grin-wink
         |ABOUT
@@ -34,7 +34,7 @@
             li Adobe XD、Photoshop CC、Illustrator CC、Figma、Canva
             li VScode、その他MSオフィスソフト等
             li Slack、Chat Work、Torello、Teams
-            li Procreate（勉強中）
+            li Procreate（勉強中）/Adobeの生成AIによるイラスト制作
       h3.title-mini.borderBottom-thin.marginBottomHalf
         i.fas.fa-tasks
         |CAREER
@@ -73,6 +73,8 @@
           img(src="@/static/img/banner4.png" alt="Googleなどのメディア広告2")
           br
           |↑Facebook/Instagramなど用のバナー
+        li
+          img(src="@/static/img/illust.png" width="320" height="320" alt="Adobeの生成AIを使用したイラスト")
       h4.marginBottom
         i.fas.fa-address-card.marginRight
         |過去の業務内容
